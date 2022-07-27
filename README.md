@@ -36,6 +36,15 @@ python multi_task_train.py data/conductivity/5ns data/conductivity/50ns
 
 The code will perform multi task training that can reduce systematic errors between 5ns and 50ns simulations.
 
+### Rerunning all experiments
+
+We provide a script to quickly rerun most experiments in paper.
+
+```
+bash run.sh
+```
+
+
 
 ## Citation
 Please consider citing the following paper if you find our code & data useful.
